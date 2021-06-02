@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="forms">
+        <div class="header">Holidays</div>
+        <form action="">
+            <input type="text" placeholder="Enter Country Name" name='country' id='cntry' class="cntry" value=''>
+            <button onclick="holiday(event)">Submit</button>
+        </form>
+    </div>
+    <div class="table_des">
+        <table id="tbl">
+            <thead>
+                <tr>
+                    <th>Occassions</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="t_body">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
